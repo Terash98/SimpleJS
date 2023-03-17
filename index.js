@@ -54,7 +54,7 @@ const main = document.querySelector("#main");
 openMobileNav.onclick = function () {
   mobileNav.classList.remove("none");
   document.body.classList.add("no-scroll");
-  // main.classList.add("none");
+  main.classList.add("none");
 };
 closeMobileNav.onclick = function () {
   mobileNav.classList.add("none");
