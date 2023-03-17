@@ -21,7 +21,10 @@ body {
   display: none !important;
 }
 .no-scroll {
-  overflow-y: hidden;
+  height: 100%;
+   width: 100%;
+   position: fixed;
+   overflow: hidden;
 }
 .owl-item.active {
   width: 200px;
