@@ -293,7 +293,7 @@ body {
   left: 0;
   top: 0;
   width: 100%;
-  min-height: 100vh;
+  min-height: cacl(100vh - 60px);
   padding: 44px 39px 32px;
   display: flex;
   flex-direction: column;
